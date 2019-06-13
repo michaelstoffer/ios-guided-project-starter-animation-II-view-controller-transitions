@@ -54,14 +54,30 @@
 		468D0E75220C9D9100DDBBCD /* ConstraintAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				468D0E76220C9D9100DDBBCD /* AppDelegate.swift */,
 				468D0E78220C9D9100DDBBCD /* ViewController.swift */,
-				468D0E7A220C9D9100DDBBCD /* Main.storyboard */,
-				468D0E7D220C9D9200DDBBCD /* Assets.xcassets */,
-				468D0E7F220C9D9200DDBBCD /* LaunchScreen.storyboard */,
-				468D0E82220C9D9200DDBBCD /* Info.plist */,
+				D63B796D22B1E5B5009EC5E9 /* Storyboards */,
+				D63B796C22B1E5A9009EC5E9 /* Resources */,
 			);
 			path = ConstraintAnimations;
+			sourceTree = "<group>";
+		};
+		D63B796C22B1E5A9009EC5E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				468D0E76220C9D9100DDBBCD /* AppDelegate.swift */,
+				468D0E7D220C9D9200DDBBCD /* Assets.xcassets */,
+				468D0E82220C9D9200DDBBCD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D63B796D22B1E5B5009EC5E9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				468D0E7A220C9D9100DDBBCD /* Main.storyboard */,
+				468D0E7F220C9D9200DDBBCD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = ConstraintAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ConstraintAnimations/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXUQXR6S56;
-				INFOPLIST_FILE = ConstraintAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ConstraintAnimations/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -21,11 +21,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func animateSquare(_ sender: Any) {
-        
+        self.redViewTopConstraint.constant = 200
+        UIView.animate(withDuration: 1.5, delay: 0.0, options: .curveEaseOut, animations: {
+            self.view.layoutIfNeeded()
+        }, completion: nil)
     }
     
     @IBAction func changeConstraints(_ sender: Any) {
-        
+        self.redViewTopConstraint.isActive = false
+        self.redViewBottomConstraint.isActive = true
+        UIView.animate(withDuration: 2.0) {
+            self.view.layoutIfNeeded()
+        }
     }
 }
 
